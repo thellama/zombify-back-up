@@ -27,10 +27,12 @@ gem 'jquery-rails', '3.0.4'
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
-gem 'jbuilder'
+gem 'jbuilder', '1.0.2'
 
 
 gem 'turbolinks', '1.1.1'
+
+gem 'rb-readline'
 
 
 group :doc do
