@@ -29,6 +29,14 @@ gem 'jquery-rails', '3.0.4'
 # To use Jbuilder templates for JSON
 gem 'jbuilder'
 
+
+gem 'turbolinks', '1.1.1'
+
+
+group :doc do
+  gem 'sdoc', '0.3.20', require: false
+end
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
@@ -37,3 +45,8 @@ gem 'jbuilder'
 
 # To use debugger
 # gem 'debugger'
+
+group :production do
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
+end
