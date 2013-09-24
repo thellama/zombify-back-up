@@ -25,6 +25,9 @@ end
 
 gem 'jquery-rails', '3.0.4'
 
+gem 'therubyracer', platforms: :ruby
+
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -35,6 +38,7 @@ gem 'jbuilder', '1.0.2'
 gem 'turbolinks', '1.1.1'
 
 gem 'rb-readline'
+
 
 
 group :doc do
