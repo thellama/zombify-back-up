@@ -37,8 +37,6 @@ gem 'jbuilder', '1.0.2'
 
 gem 'turbolinks', '1.1.1'
 
-gem 'rb-readline'
-
 
 
 group :doc do
